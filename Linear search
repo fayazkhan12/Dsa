@@ -1,0 +1,19 @@
+#include<iostream>  //LINEAR SEARCH PROGRAMME
+using namespace std;
+int main()
+{
+    int arr[]={2,3,4,5,8,4,2,0};
+    int key =8;
+    int n=sizeof(arr) / sizeof(arr[0]);
+    
+    for(int i=0;i<=n;i++)
+    {
+        if(arr[i]==key)
+        {
+            cout<<"misson accomplished "<<key<<endl;;
+        }
+        else{
+            cout<<endl;;
+        }
+    }
+}
